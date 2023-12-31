@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("images/cars-bg2.jpg");
+
+    /* Control the height of the image */
+    height: 620px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Add styles to the form container */
+.container {
+    margin: auto;
+    max-width: 300px;
+    padding-top: 10%;
+    background: rgb(68, 141, 224, .1);
+    /*  10% opaque green */
+    text-align: center;
+    color:  rgb(19, 19, 19);
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color:rgb(68, 141, 224);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+#signup{
+    color: rgb(194, 187, 187);
+}
