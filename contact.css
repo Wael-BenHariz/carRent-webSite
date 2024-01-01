@@ -119,66 +119,81 @@ a{
     color: #9e9d9d;
 }
 
-.title1 {
-    text-align: center;
-    margin: 20px 0 10px 0;
-    font-weight: 1000;
-    font-size: 20px;
-    text-transform: uppercase;
-}
 
-.car_img {
-    width: 292px;
-    height: 146px;
+
+/**/
+
+.container {
+    width: 93%;
     margin: auto;
+    overflow: hidden;
+    display: flex;
 }
 
-.car_name {
-    font-size: 15px;
-    background-color: #333;
-    color: #fff;
-    padding: 3px;
-    letter-spacing: 1px;
-}
-.price {
-    font-size: 30px; 
-    font-weight: bold;
-    color: #333;
-}
-.cars{
-    margin: auto;
-    text-align: center;
-    padding: 5px;
-    background-color: #e9e4e4;
-}
+.info {
 
-td{
-    border-right: solid 1px rgb(206, 206, 206); 
-}
-
-.cars td{
+    width: 50%;
     padding: 10px;
-    margin:10px;
+    box-sizing: border-box;
+    background: #e9e4e4;
 }
 
-.download{
-    color: rgb(68, 141, 224);
-}
-.download img{
-    height: 20px;
-    width: 20px;
+form {
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
 }
 
-.get_quota{
-    background-color: rgb(68, 141, 224);
-    color: #fff;
-    font-size: 20px;
-    height: 50px;
-    width:300px;
-    padding-top: 20px;
+.image {
+    width: 30%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
     display: inline-block;
-   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#geoImg {
+    width: 100%;
+    height: auto;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row > div {
+    width: 48%;
+}
+
 
 
 

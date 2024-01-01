@@ -6,7 +6,7 @@ a{
     text-decoration: none;  
     color: inherit;
 }
-
+/*top page part*/
 .navbar {
 
     overflow: hidden;
@@ -119,7 +119,7 @@ a{
     color: #9e9d9d;
 }
 
-
+/*end of the top page part*/
 
 .content1 {
     background-image: url("images/bgimage.jpg");
@@ -246,5 +246,23 @@ a{
 }
 video{
     width: 700px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 

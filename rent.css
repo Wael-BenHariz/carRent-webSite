@@ -6,7 +6,7 @@ a{
     text-decoration: none;  
     color: inherit;
 }
-
+/*top page part*/
 .navbar {
 
     overflow: hidden;
@@ -119,66 +119,107 @@ a{
     color: #9e9d9d;
 }
 
-.title1 {
-    text-align: center;
-    margin: 20px 0 10px 0;
-    font-weight: 1000;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.car_img {
-    width: 292px;
-    height: 146px;
+/*end of the top page part*/
+.container {
+    width: 90%;
     margin: auto;
+    overflow: hidden;
+    display: flex;
 }
 
-.car_name {
-    font-size: 15px;
+.car-info {
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.car-info h3{
+    text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 3px;
-    letter-spacing: 1px;
-}
-.price {
-    font-size: 30px; 
-    font-weight: bold;
-    color: #333;
-}
-.cars{
-    margin: auto;
-    text-align: center;
-    padding: 5px;
-    background-color: #e9e4e4;
-}
-
-td{
-    border-right: solid 1px rgb(206, 206, 206); 
-}
-
-.cars td{
     padding: 10px;
-    margin:10px;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-.download{
-    color: rgb(68, 141, 224);
-}
-.download img{
-    height: 20px;
-    width: 20px;
+.form-container {
+    width: 70%;
 }
 
-.get_quota{
-    background-color: rgb(68, 141, 224);
+form {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h3.section-title {
+    background-color: #333;
     color: #fff;
-    font-size: 20px;
-    height: 50px;
-    width:300px;
-    padding-top: 20px;
-    display: inline-block;
-   
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    margin-bottom: 10px;
 }
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    text-align: center;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.optional-equipment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optional-equipment label {
+    width: 30%;
+}
+
+.driver-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.driver-info label {
+    width: 48%;
+}
+
+
+
 
 
 

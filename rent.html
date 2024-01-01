@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="rent.css">
+</head>
+<body style="margin: 0;">
+    <div class="top-page">
+    <div class="site">
+        <h1 id="site-name">RENT CAR</h1>
+        <h6 id="site-desc">Car rental agency in Tunisia</h6>
+    </div>
+
+    <div class="contact-info">
+        <ul class="menu">
+            <li><img src="images/mail.png" alt="whatsapp-logo" class="contact-logo">
+                <span class="contact-text1">Mail us</span><br><span class="contact-text2">info@industrial.com</span>
+            </li>
+            <li> <img src="images/time.png" alt="whatsapp-logo" class="contact-logo">
+                <span class="contact-text1">Opening time</span><br><span class="contact-text2">Mon - Sun: 8AM -
+                    7PM</span>
+            </li>
+            <li><img src="images/phone.png" alt="whatsapp-logo" class="contact-logo">
+                <span class="contact-text1">Call us</span><br><span class="contact-text2">(+216) 20 300 400</span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="navbar">
+    <a href="home.html">HOME</a>
+    <a href="cars.html">CARS</a>
+    <a href="contact.html" id="contactus">CONTACT US</a>
+    <a href="signin.html" id="login">LOG-IN <img src="images/user.png" id="user-image"></a>
+</div>
+
+
+
+
+<div class="container">
+    <div class="form-container">
+        <form action="#" method="post">
+
+            <h3 class="section-title">Optional Equipment</h3>
+            <div class="optional-equipment">
+                <label><input type="checkbox" name="additionalDrivers"> Additional Drivers (10TND/day)</label>
+                <label><input type="checkbox" name="gps"> GPS (5TND/day)</label>
+                <label><input type="checkbox" name="fullFuel"> Full Gasoline (15TND/day)</label>
+            </div>
+
+            <div class="optional-equipment">
+                <label><input type="checkbox" name="boosterSeat"> Booster Seat (8TND/day)</label>
+                <label><input type="checkbox" name="infantSeat"> Infant Seat (8TND/day)</label>
+                <label><input type="checkbox" name="childSeat"> Child Seat (8TND/day)</label>
+            </div>
+
+            <h3 class="section-title">Insurance Type</h3>
+            <label><input type="radio" name="insuranceType" value="protection"> Protection Insurance</label>
+            <label><input type="radio" name="insuranceType" value="full"> Full Insurance</label>
+            <label><input type="radio" name="insuranceType" value="none"> No Insurance</label>
+
+            <h3 class="section-title">Driver Information</h3>
+            <div class="driver-info">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="driver-info">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telephone">Telephone:</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+
+            <div class="driver-info">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+
+            <label for="additionalOptions">Additional Options:</label>
+            <textarea id="additionalOptions" name="additionalOptions" rows="2" cols="110"></textarea><br>
+
+            <input type="submit" value="Rent Now">
+        </form>
+    </div>
+
+    <div class="car-info">
+        <h3>Car Information</h3>
+        <img src="images/polo-sedan.webp" alt="Car Image" style="width: 100%; height: auto;">
+        <p><b>Car Model:</b> Example Car Model</p>
+        <p><b>Year:</b> 2024</p>
+        <p><b>Price per Day:</b> 50TND</p>
+    </div>
+</div>
+
+
+
+
+<div class="footer">
+    <p>&copy; 2024 Car Rental | All rights reserved</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a> | <a href="#">Contact Us</a></p>
+</div>
+</body>
+</html>
